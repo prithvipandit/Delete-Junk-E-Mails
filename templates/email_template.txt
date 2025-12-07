@@ -1,0 +1,16 @@
+Hi ${recruiter_name},
+
+${intro_paragraph}
+
+I'm a Backend Software Engineer with ${years_of_experience} of experience building distributed systems and microservices, currently working as a Senior Integration Engineer at Schneider Electric. Along the way I've worked heavily with Java/Spring Boot, AWS (EKS, Lambda, DynamoDB), Kubernetes and Kafka - led a migration of 20+ microservices to EKS, cut post-release defects by 45% through a new integration testing framework and helped bring production uptime to 99.9%+.
+
+${resume_line}
+
+Would you have some time this week for a quick call?
+
+Thanks,
+${sender_name}
+${sender_phone}
+${linkedin_url}
+${github_url}
+${sender_email}
