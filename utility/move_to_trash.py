@@ -7,10 +7,7 @@ def move_junk_emails_to_trash(email, app_password, imap_server, subjects, junk_s
     mail = imaplib.IMAP4_SSL(imap_server)
     mail.login(email, app_password)
 
-    try:
-        mail = imaplib.IMAP4_SSL(imap_server)
-        mail.login(email, app_password)
-        
+    try:        
         mail.select('"[Gmail]/All Mail"')
         gmail_query = build_search_query(subjects=subjects, junk_senders=junk_senders)
         
